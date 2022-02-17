@@ -68,10 +68,16 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
-    - name: Update feeds
+    - name: Update feeds_1
       run: cd openwrt && ./scripts/feeds update -a
 
-    - name: Install feeds
+    - name: Install feeds_1
+      run: cd openwrt && ./scripts/feeds install -a
+
+    - name: Update feeds_2
+      run: cd openwrt && ./scripts/feeds update -a
+
+    - name: Install feeds_2
       run: cd openwrt && ./scripts/feeds install -a
 
     - name: Load custom configuration
