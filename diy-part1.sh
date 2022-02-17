@@ -18,6 +18,10 @@ echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.defau
 echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 #git clone https://github.com/AlexZhuo/luci-app-bandwidthd.git package/luci-app-bandwidthd
+echo 'src-git vlmcsd https://github.com/cokebar/openwrt-vlmcsd.git' >>feeds.conf.default
+echo 'src-git vlmcsdluci https://github.com/cokebar/luci-app-vlmcsd.git' >>feeds.conf.default
+echo 'src-git wrtbwmonluci https://github.com/brvphoenix/luci-app-wrtbwmon.git' >>feeds.conf.default
+echo 'src-git wrtbwmon https://github.com/brvphoenix/wrtbwmon.git' >>feeds.conf.default
 
 mkdir -p package/helloworld
 for i in "dns2socks" "microsocks" "ipt2socks" "pdnsd-alt" "redsocks2"; do \
