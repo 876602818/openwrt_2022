@@ -1,15 +1,15 @@
-src-git-full packages https://git.openwrt.org/feed/packages.git
-src-git-full luci https://git.openwrt.org/project/luci.git
+src-git-full packages https://github.com/876602818/packages.git
+#src-git packages https://github.com/876602818/packages.git
+src-git-full luci https://github.com/876602818/luci.git
 src-git-full routing https://git.openwrt.org/feed/routing.git
 src-git-full telephony https://git.openwrt.org/feed/telephony.git
 
 src-git helloworld https://github.com/fw876/helloworld.git
-src-git small https://github.com/876602818/small.git
+#src-git small https://github.com/876602818/small.git
 src-git openclash https://github.com/vernesong/OpenClash.git
 src-git wrtbwmonluci https://github.com/brvphoenix/luci-app-wrtbwmon.git
 src-git wrtbwmon https://github.com/brvphoenix/wrtbwmon.git
-#src-git vlmcsdluci https://github.com/cokebar/luci-app-vlmcsd.git
-#src-git vlmcsd https://github.com/cokebar/openwrt-vlmcsd.git
+
 
 #src-git-full video https://github.com/openwrt/video.git
 #src-git-full targets https://github.com/openwrt/targets.git
